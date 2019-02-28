@@ -1,0 +1,1 @@
+/home/teddy/.config/fisherman/bass/functions/bass.fish

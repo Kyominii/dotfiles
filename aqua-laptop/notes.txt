@@ -1,0 +1,9 @@
+Fish
+-> Oh My Fish - Theme : BobTheFish
+
+i3lock
+-> mantalockscreen
+
+Fonts
+-> nerd-fonts (fish)
+-> awesome-font (except Brand)
