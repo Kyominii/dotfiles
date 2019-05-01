@@ -25,7 +25,8 @@ primary = #1d3f4f
 secondary = #f0446f
 
 [bar/simplebar]
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = DP-3
+monitor-fallback = LVDS-1
 width = 100%
 height = 35
 bottom = true
@@ -88,7 +89,7 @@ type = internal/battery
 format-discharging = <ramp-capacity> <label-discharging>
 label-full = Fully Charged
 full-at = 90
-label-discharging = %percentage%% %time%
+label-discharging = %percentage%%
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -146,7 +147,7 @@ interval = 5
 type = internal/cpu
 interval = 0.5
 format = <label> <ramp-coreload> 
-label = CPU %percentage%% 
+label = %percentage%% 
 
 ; Spacing between individual per-core ramps
 ramp-coreload-spacing = 1

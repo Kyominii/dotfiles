@@ -12,6 +12,6 @@ abbr gramm '/home/teddy/Documents/grammalecte/grammalecte-cli.py'
 abbr git5k 'cd /home/teddy/Documents/g5k/git/'
 abbr mindmap '/home/teddy/freeplane-1.6.15/freeplane.sh'
 
-set -g theme_powerline_fonts no
+set -g theme_powerline_fonts yes
 set -g theme_nerd_fonts yes
 set -g theme_display_date no
